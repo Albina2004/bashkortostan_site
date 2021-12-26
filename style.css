@@ -1,8 +1,8 @@
-body {
+html {
   background-color: #ffffff;
   background-image: url("img2.jpeg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: x-repeat;
   background-attachment: fixed;
   background-size: 100%;
   
@@ -27,6 +27,17 @@ h1 {
 
 h2 {
 	font-size: 30px;
+	text-align: center;
+}
+
+div {
+	display: inline-block;
+}
+
+.marginauto {
+	margin: auto;
+	display:block;
+	position: center;
 }
 
 main {
